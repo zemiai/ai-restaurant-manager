@@ -1,0 +1,74 @@
+================================================================================
+VIDEO 1: ZERO TO RUNNING
+Duration: ~5 minutes
+Style: Faceless tutorial with TTS narration
+================================================================================
+
+[00:00 - 00:30] INTRO
+---------------------
+SCREEN: Title card "AI Restaurant Manager Kit - Zero to Running"
+TTS: "Welcome to the AI Restaurant Manager Kit! In this video, we'll go from
+unboxing your Raspberry Pi 5 to running your first daily briefing in under
+five minutes. Let's get started."
+
+
+[00:30 - 01:30] UNBOXING
+------------------------
+SCREEN: Show Raspberry Pi 5 in packaging
+SCREEN: Show all components laid out - Pi 5, power supply, SD card, case, cables
+TTS: "First, let's unbox your kit. Inside you'll find the Raspberry Pi 5 computer,
+a power supply, a micro SD card pre-loaded with software, a case, and the
+necessary cables. Make sure you have everything listed in the quick start guide."
+
+
+[01:30 - 02:30] FLASH SD CARD (if needed)
+-----------------------------------------
+SCREEN: Insert SD card into computer
+SCREEN: Show Raspberry Pi Imager software downloading
+SCREEN: Show flashing process with progress bar
+TTS: "Your SD card should already be flashed with the AI Restaurant Manager
+image. If you need to reflash it, download the Raspberry Pi Imager from
+raspberrypi.com, choose the AI Restaurant Manager image from the custom
+section, and write it to the SD card. This takes about five minutes."
+
+
+[02:30 - 03:30] ASSEMBLE AND POWER ON
+--------------------------------------
+SCREEN: Insert SD card into Pi 5
+SCREEN: Assemble case (show quick time-lapse)
+SCREEN: Connect power and HDMI
+SCREEN: Power LED lights up
+TTS: "Now let's assemble your Pi. Carefully insert the SD card into the slot
+on the bottom of the Raspberry Pi. Snap it into the case, then connect the
+power supply and HDMI cable. When you plug it in, you should see the red
+power LED illuminate and the Pi will boot up."
+
+
+[03:30 - 04:30] FIRST LOGIN
+---------------------------
+SCREEN: Login screen appears
+SCREEN: Type default credentials (highlight security warning)
+SCREEN: Show desktop environment loading
+TTS: "Your Pi will boot to a login screen. The default username is 'admin'
+and the password is 'restaurant'. We'll change this later for security.
+After logging in, you'll see the AI Restaurant Manager desktop with icons
+for all the tools we'll use."
+
+
+[04:30 - 05:00] RUN FIRST BRIEFING
+----------------------------------
+SCREEN: Double-click "Daily Briefing" icon
+SCREEN: Terminal window opens, script runs
+SCREEN: Show output with sales data, weather, tasks
+TTS: "Let's run your first briefing! Double-click the Daily Briefing icon.
+The system will connect to your Toast account, pull yesterday's sales,
+check the weather, and compile everything into a morning brief. That's
+your AI Restaurant Manager up and running! Next, we'll connect it to Toast."
+
+
+[05:00 - 05:15] OUTRO
+---------------------
+SCREEN: Show "Subscribe for more tutorials" card
+TTS: "Great job! Watch our next video to connect your Toast POS system.
+Subscribe for more tutorials. See you there!"
+================================================================================

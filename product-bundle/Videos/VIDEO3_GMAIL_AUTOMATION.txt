@@ -1,0 +1,86 @@
+================================================================================
+VIDEO 3: GMAIL AUTOMATION
+Duration: ~5 minutes
+Style: Faceless tutorial with TTS narration
+================================================================================
+
+[00:00 - 00:30] INTRO
+---------------------
+SCREEN: Title card "Setting Up Gmail Invoice Automation"
+TTS: "Your AI Manager can automatically scan emails for invoices from
+vendors like Sysco, US Foods, and performance Food Group. Let's set up
+Gmail OAuth so the system can read your bills automatically."
+
+
+[00:30 - 01:30] SET UP OAUTH
+----------------------------
+SCREEN: Navigate to console.cloud.google.com
+SCREEN: Create new project "AI Restaurant Manager"
+SCREEN: Enable Gmail API
+TTS: "First, go to the Google Cloud Console and create a new project
+called AI Restaurant Manager. Search for and enable the Gmail API.
+Then go to Credentials and click Create Credentials. Choose OAuth
+Client ID and select Desktop Application."
+
+
+
+
+[01:30 - 02:30] DOWNLOAD CREDENTIALS
+------------------------------------
+SCREEN: Download JSON credentials file
+SCREEN: Rename to credentials.json
+SCREEN: Move to ai-restaurant-manager folder
+TTS: "Google will download a JSON file with your OAuth credentials.
+Rename this file to credentials.json and move it to the ai-restaurant-manager
+folder. Now you need to run the OAuth setup script to authorize access
+to your email account."
+
+
+
+
+[02:30 - 03:30] RUN OAUTH SETUP
+--------------------------------
+SCREEN: Terminal - run setup-gmail-auth
+SCREEN: Browser opens for Google login
+SCREEN: Click "Allow" on permissions screen
+SCREEN: Copy verification code
+TTS: "In the terminal, run setup-gmail-auth. Your browser will open
+to Google's login page. Sign in with the email account you want to
+monitor. Google will ask for permission to read emails - click Allow.
+Copy the verification code back into the terminal. You're now authenticated."
+
+
+
+
+[03:30 - 04:30] TEST INVOICE SCAN
+----------------------------------
+SCREEN: Check for test invoice email
+SCREEN: Run scan-invoices command
+SCREEN: Show detected invoices in terminal
+TTS: "Let's test it out. Send a test invoice to your email account
+or use an existing one. Run scan-invoices from the terminal. The system
+will search for emails containing invoice keywords from your vendors.
+When it finds one, it extracts the total amount, vendor name, and date."
+
+
+
+
+[04:30 - 05:00] VIEW RESULTS
+-----------------------------
+SCREEN: Open expenses.md file
+SCREEN: Show extracted invoice data
+SCREEN: Highlight vendor, amount, date fields
+TTS: "The scanned invoices are saved in your data folder as expenses.md.
+Open it to see all your automatically tracked bills. You can also run
+reports to see spending by vendor or date range. Your invoice automation
+is ready to go!"
+
+
+
+
+[05:00 - 05:15] OUTRO
+---------------------
+SCREEN: Show "Subscribe for more tutorials" card
+TTS: "Invoice automation is now saving you time every week. Next, we'll
+configure your daily morning briefing that arrives in Telegram. Don't miss it!"
+================================================================================

@@ -1,0 +1,80 @@
+================================================================================
+VIDEO 2: TOAST INTEGRATION
+Duration: ~5 minutes
+Style: Faceless tutorial with TTS narration
+================================================================================
+
+[00:00 - 00:30] INTRO
+---------------------
+SCREEN: Title card "Connecting Toast POS to Your AI Restaurant Manager"
+TTS: "Now let's connect your AI Restaurant Manager to Toast. This will allow
+the system to pull real-time sales data, inventory info, and labor metrics.
+Here's how to get your API credentials."
+
+
+[00:30 - 01:30] GET API CREDENTIALS
+-----------------------------------
+SCREEN: Navigate to toastportal.com
+SCREEN: Show Developer section
+SCREEN: Highlight API Keys menu
+TTS: "First, log into the Toast Developer Portal at toastportal.com. Go to
+the Developer section and click on API Keys. You'll need to create a new
+application for your restaurant. Click Add Application, name it 'AI Manager',
+and select the permissions you need: sales data, menu items, and labor reports."
+
+
+[01:30 - 02:30] SAVE CREDENTIALS
+--------------------------------
+SCREEN: Show generated API Key and Client ID
+SCREEN: Highlight "Copy now - won't show again" warning
+SCREEN: Save to password manager
+TTS: "Toast will generate a Client ID and API Key. Copy these immediately -
+you won't be able to see them again! Save them in a secure password manager.
+You'll also need your Toast restaurant GUID, which you can find in the
+Settings section under Account Information."
+
+
+
+
+[02:30 - 03:30] CONFIGURE CONFIG.YAML
+--------------------------------------
+SCREEN: Open config.yaml in text editor
+SCREEN: Show toast section with empty fields
+TTS: "Now open the AI Manager configuration file. In your home folder,
+look for config.yaml in the ai-restaurant-manager directory. Scroll down
+to the Toast section. Enter your Client ID, API Key, and Restaurant GUID
+in the appropriate fields. Save the file when done."
+
+
+
+[03:30 - 04:30] TEST DATA PULL
+-------------------------------
+SCREEN: Open terminal
+SCREEN: Run test-toast-connection command
+SCREEN: Show successful connection message
+SCREEN: Display sample sales data
+TTS: "Let's test the connection. Open a terminal and run the command
+test-toast-connection. If everything is configured correctly, you'll see
+a success message and sample data from your restaurant. This confirms the
+API connection is working. If you get an error, double-check your credentials."
+
+
+
+
+[04:30 - 05:00] VIEW DASHBOARD
+-------------------------------
+SCREEN: Open browser to localhost dashboard
+SCREEN: Show sales chart, top items, labor costs
+TTS: "Now open the AI Manager dashboard in your browser. You should see
+real-time sales data from Toast, including today's revenue, top selling
+items, and labor cost percentages. The dashboard updates automatically
+every hour. Your Toast integration is complete! Next, we'll set up email
+automation."
+
+
+[05:00 - 05:15] OUTRO
+---------------------
+SCREEN: Show "Subscribe for more tutorials" card
+TTS: "Your AI Manager now has live sales data! Watch our next video to
+set up automatic invoice scanning from Gmail. Subscribe for updates."
+================================================================================

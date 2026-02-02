@@ -1,0 +1,85 @@
+================================================================================
+VIDEO 5: TROUBLESHOOTING
+Duration: ~5 minutes
+Style: Faceless tutorial with TTS narration
+================================================================================
+
+[00:00 - 00:30] INTRO
+---------------------
+SCREEN: Title card "Troubleshooting Common Issues"
+TTS: "Having trouble? Don't worry. This video covers the most common
+issues and how to fix them quickly. Let's get you back up and running."
+
+
+
+
+[00:30 - 01:30] COMMON ISSUES - TOAST
+-------------------------------------
+SCREEN: Show error messages list
+SCREEN: "API connection failed" screen
+SCREEN: "Invalid credentials" screen
+TTS: "First, Toast connection problems. If you see 'API connection failed',
+check your internet connection and make sure your API credentials are
+correct in config.yaml. Remember, Toast API keys are case-sensitive.
+Also, ensure your Toast account has API access enabled."
+
+
+
+
+[01:30 - 02:30] COMMON ISSUES - GMAIL
+-------------------------------------
+SCREEN: Show OAuth error
+SCREEN: Show "permission denied" screen
+TTS: "For Gmail issues, if OAuth fails, delete the token.json file in
+the project folder and run setup-gmail-auth again. If you see permission
+denied, make sure you're using a Google Workspace account, not a personal
+Gmail. Business accounts work best with OAuth."
+
+
+
+
+[02:30 - 03:30] COMMON ISSUES - TELEGRAM
+-----------------------------------------
+SCREEN: Show "bot not in group" error
+SCREEN: Show "unknown chat" error
+TTS: "Telegram problems? Make sure your bot is actually in the Telegram
+group and has permission to send messages. If you get 'unknown chat',
+run get-chat-id again after sending a fresh message in the group.
+Sometimes the chat ID changes if the bot was re-added."
+
+
+
+
+[03:30 - 04:30] HOW TO DEBUG
+-----------------------------
+SCREEN: Terminal showing log files
+SCREEN: Run debug command
+SCREEN: Show error logs
+TTS: "When something breaks, check the logs. Run debug-mode from the
+terminal to see detailed error messages. Logs are saved in the logs
+folder with timestamps. Most errors will tell you exactly what's wrong.
+Common culprits: wrong file paths, missing credentials, expired tokens."
+
+
+
+
+[04:30 - 05:00] WHERE TO GET HELP
+----------------------------------
+SCREEN: Show documentation website
+SCREEN: Show community forum
+SCREEN: Show support email
+TTS: "Need more help? First, check the documentation at our website -
+it's searchable and covers everything in depth. Join our community
+forum to ask questions and see solutions from other users. For urgent
+issues, email support with your error logs attached. We're here to help!"
+
+
+
+
+[05:00 - 05:15] OUTRO
+---------------------
+SCREEN: Show "Subscribe for more tutorials" card
+TTS: "That's it for troubleshooting! You now have a fully running AI
+Restaurant Manager. Subscribe for more tips and advanced features.
+Thanks for watching!"
+================================================================================

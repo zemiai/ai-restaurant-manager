@@ -1,0 +1,12 @@
+Name,Restaurant,Email,Phone,Channel,Status,Notes,FollowUpDate
+, , , ,Email/Instagram/LinkedIn,New/Contacted/Replied/Converted/Lost, ,YYYY-MM-DD
+John Smith,The Lobster Trap,john@lobstertrap.com,555-123-4567,Email,New,,2026-02-05
+Sarah Johnson,Bluewater Grille,sarah@bluewatergrille.com,555-234-5678,LinkedIn,Contacted,,2026-02-07
+Mike Davis,Cape Cod Kitchen,mike@capecodkitchen.com,555-345-6789,Instagram,New,,2026-02-05
+Emily Chen,Beacon Hill Bistro,emily@beaconhillbistro.com,555-456-7890,Email,Replied,,2026-02-08
+David Ross,Harborview Restaurant,david@harborview.com,555-567-8901,Email,Converted,,N/A
+Lisa Wang,Sushi Garden,lisa@sushigarden.com,555-678-9012,LinkedIn,New,,2026-02-06
+James Miller,Tony's Italian Kitchen,james@tonysitalian.com,555-789-0123,Instagram,Contacted,,2026-02-09
+Maria Garcia,The Rusty Rudder,maria@rustyrudder.com,555-890-1234,Email,New,,2026-02-05
+Robert Taylor,Seaside Café,robert@seasidecafe.com,555-901-2345,LinkedIn,Replied,,2026-02-08
+Jennifer White,North End Trattoria,jennifer@northendtrattoria.com,555-012-3456,Email,New,,2026-02-06

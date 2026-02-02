@@ -1,0 +1,84 @@
+================================================================================
+VIDEO 4: DAILY BRIEF SETUP
+Duration: ~5 minutes
+Style: Faceless tutorial with TTS narration
+================================================================================
+
+[00:00 - 00:30] INTRO
+---------------------
+SCREEN: Title card "Setting Up Your Daily Morning Briefing"
+TTS: "Imagine waking up to a complete restaurant summary every morning at
+seven AM. Sales from yesterday, today's weather, inventory alerts, and
+tasks all in one Telegram message. Let's make it happen."
+
+
+
+
+[00:30 - 01:30] CONFIGURE TELEGRAM BOT
+---------------------------------------
+SCREEN: Open Telegram, search for BotFather
+SCREEN: Send /newbot command
+SCREEN: Name the bot (e.g., "BrickHouse Manager")
+SCREEN: Copy bot token
+TTS: "First, we need a Telegram bot. Open Telegram and search for BotFather.
+Send the command /newbot and follow the prompts. Give your bot a name and
+a username ending in 'bot'. When done, BotFather will give you a long token
+string. Copy this - you'll need it for the config file."
+
+
+
+
+
+[01:30 - 02:30] ADD BOT TO GROUP
+---------------------------------
+SCREEN: Add bot to Telegram group
+SCREEN: Send test message
+TTS: "Add your new bot to the Telegram group where you want to receive
+briefings. Send a test message in the group. Now we need to get the
+Chat ID for this group so the bot knows where to send messages."
+
+
+
+
+[02:30 - 03:30] UPDATE CONFIG
+------------------------------
+SCREEN: Open config.yaml
+SCREEN: Find Telegram section
+SCREEN: Enter bot token and chat ID
+SCREEN: Save file
+TTS: "Go back to your config.yaml file. Find the Telegram section and
+enter your bot token. For the chat ID, run get-chat-id in the terminal
+after sending a test message. The script will display your chat number.
+Enter it in the config file and save."
+
+
+
+
+[03:30 - 04:30] SET UP CRON JOB
+--------------------------------
+SCREEN: Open terminal
+SCREEN: Type crontab -e
+TTS: "Now let's schedule the daily briefing. In the terminal, type
+crontab -e to edit your scheduled tasks. Add this line at the bottom:
+seven AM every day. The command runs the briefing script and sends
+it to Telegram. Save and exit."
+
+
+
+
+[04:30 - 05:00] TEST MORNING BRIEF
+-----------------------------------
+SCREEN: Run daily-brief command manually
+SCREEN: Show Telegram message with all sections
+TTS: "Let's test it now! Run daily-brief from the terminal. Check your
+Telegram group - you should see a formatted message with yesterday's
+sales, weather forecast, inventory alerts, and scheduled tasks. Your
+morning briefing is ready!"
+
+
+[05:00 - 05:15] OUTRO
+---------------------
+SCREEN: Show "Subscribe for more tutorials" card
+TTS: "You'll never miss important info again! Last up, we'll cover
+troubleshooting common issues. Subscribe so you don't miss it."
+================================================================================
